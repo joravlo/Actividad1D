@@ -6,6 +6,9 @@
  *
  * @package Sydney
  */
+
+//Toco este archivo
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
