@@ -5,6 +5,7 @@
  * @package Sydney
  */
 
+//Toco este archivo
 
 if ( ! function_exists( 'sydney_setup' ) ) :
 /**
