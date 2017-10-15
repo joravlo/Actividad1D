@@ -2,6 +2,9 @@
 /**
  * @package Sydney
  */
+
+//Toco este archivo
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
