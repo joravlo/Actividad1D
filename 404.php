@@ -5,7 +5,7 @@
  * @package Sydney
  */
 
-//Toco este fichero
+//Toco este fichero 2
 
 get_header(); ?>
 
