@@ -5,6 +5,8 @@
  * @package Sydney
  */
 
+//Toco este archivo
+
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	return;
 }
