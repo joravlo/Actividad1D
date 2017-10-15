@@ -4,6 +4,8 @@
  * Contains handlers to make Theme Customizer preview reload changes asynchronously.
  */
 
+ //Toco este archivo
+
 ( function( $ ) {
 	// Site title and description.
 	wp.customize( 'blogname', function( value ) {
@@ -51,7 +53,7 @@
 		value.bind( function( newval ) {
 			$('#mainnav ul li a').not('#mainnav .sub-menu li a').css('color', newval );
 		} );
-	});	
+	});
 	//Sub-menu items
 	wp.customize('submenu_items_color',function( value ) {
 		value.bind( function( newval ) {
@@ -63,19 +65,19 @@
 		value.bind( function( newval ) {
 			$('.text-slider .maintitle, .text-slider .subtitle').css('color', newval );
 		} );
-	});	
+	});
 	// Body text color
 	wp.customize('body_text_color',function( value ) {
 		value.bind( function( newval ) {
 			$('body').css('color', newval );
 		} );
-	});		
+	});
 	//Sidebar background
 	wp.customize('sidebar_background',function( value ) {
 		value.bind( function( newval ) {
 			$('.widget-area').css('background-color', newval );
 		} );
-	});	
+	});
 	//Sidebar color
 	wp.customize('sidebar_color',function( value ) {
 		value.bind( function( newval ) {
@@ -87,13 +89,13 @@
 		value.bind( function( newval ) {
 			$('.footer-widgets').css('background-color', newval );
 		} );
-	});	
+	});
 	//Footer widgets color
 	wp.customize('footer_widgets_color',function( value ) {
 		value.bind( function( newval ) {
 			$('#sidebar-footer,#sidebar-footer a,.footer-widgets .widget-title').css('color', newval );
 		} );
-	});	
+	});
 	//Footer background
 	wp.customize('footer_background',function( value ) {
 		value.bind( function( newval ) {
