@@ -5,7 +5,7 @@
  * @package Sydney
  */
 
-//Toco este fichero 2
+//Toco este fichero ejercicio 5
 
 get_header(); ?>
 
