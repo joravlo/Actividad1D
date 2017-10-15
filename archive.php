@@ -7,6 +7,8 @@
  * @package Sydney
  */
 
+//Toco este fichero
+
 get_header(); ?>
 
 	<?php do_action('sydney_before_content'); ?>
