@@ -10,6 +10,8 @@
  * @package Sydney
  */
 
+//Toco este archivo
+
 get_header(); ?>
 
 	<div id="primary" class="content-area col-md-9">
